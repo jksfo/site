@@ -140,3 +140,10 @@ body {
 .shadow90{
 width: 90%;
 }
+
+.vcenter {
+    display: flex;
+    align-items: center;
+    /* vertic al-align: middle; */ 
+}
+

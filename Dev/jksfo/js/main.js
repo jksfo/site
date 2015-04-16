@@ -11,6 +11,7 @@ jksfoApp.config( ['$routeProvider', function($routeProvider) {
       templateUrl: 'partials/home.html'
     })
 
+
     // Dev
     .when('/geoLocation', {
       templateUrl: 'partials/dev/geoLocation.html'
@@ -50,18 +51,20 @@ jksfoApp.config( ['$routeProvider', function($routeProvider) {
     .when('/sqlMongo', {
       templateUrl: 'partials/dev/sqlMongo.html'
     })
-      
-
+    .when('/linux', {
+      templateUrl: 'partials/dev/linux.html'
+    })
 
 
     // About    
-    .when('/about', {
-      templateUrl: 'partials/about.html'
+    .when('/contact', {
+      templateUrl: 'partials/about/contact.html'
     })
-    .when('/other', {
-      templateUrl: 'partials/other.html'
+    .when('/resume', {
+      templateUrl: 'partials/about/resume.html'
     })
     
+
     // Default - Home 
     .otherwise({
       redirectTo: '/home'

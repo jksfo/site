@@ -95,9 +95,8 @@
           <ul class="dropdown-menu " >
             <!-- <li class="divider"></li> -->
             <li><a href="#geoLocation">Geo Location</a></li>
-            <li><a href="#python">Python</a></li>
+            <li class="disabled"><a href="">Python</a></li> <!-- #python -->
 
-            <!-- <li><a href="#blog/">Blog</a></li> --> 
             <li><a href="http://joeskb.blogspot.com/">Blog</a></li> 
             <li><a href="#resources">Resources</a></li>
             <li><a href="https://github.com/jksfo">Git</a></li>
@@ -108,10 +107,11 @@
             <li><a href="#tsqlSP">T-SQL - Typical SP for ETL</a></li>
 
             <li class="divider"></li> 
-            <li><a href="#sqlRiak">SQL - Riak</a></li>
-            <li><a href="#sqlPostgreSQL">SQL - PostgreSQL</a></li>
-            <li><a href="#sq1HBase">SQL - HBase</a></li>
-            <li><a href="#sq1Mongo">SQL - MongoDB</a></li>
+            <li class="disabled"><a href="" >SQL - Riak</a></li> <!-- #sqlRiak -->
+            <li class="disabled"><a href="">SQL - PostgreSQL</a></li> <!-- #sqlPostgreSQL -->
+            <li class="disabled"><a href="">SQL - HBase</a></li> <!-- #sqlHBase -->
+            <li class="disabled"><a href="">SQL - MongoDB</a></li> <!-- #sqlMongo -->
+            <li ><a href="#linux">Linux</a></li> 
 
           </ul>
         </li>
@@ -124,13 +124,13 @@
           <!-- <span class="glyphicon glyphicon-glass"></span> -->
           </a>
           <ul class="dropdown-menu " >
- 				    <li><a href="#about">About</a></li>
- 				    <li><a href="#linkedIn">LinkedIn</a></li>
-            <li><a href="#twitter">Twitter</a></li>
+ 				<li><a href="#contact">Contact</a></li>
+ 				<li><a href="https://www.linkedin.com/in/jksfo">LinkedIn</a></li> <!-- #linkedIn -->
+            <li><a href="https://twitter.com/jksfo">Twitter</a></li>
             <li><a href="#resume">Resume</a></li>
             <li class="divider"></li> 
-            <li><a href="#cheeses">CheesesLovesYou.com</a></li>
-            <li><a href="#josephkellyme">JosephKelly.me</a></li>
+            <li><a href="http://www.cheeseslovesyou.com/">CheesesLovesYou.com</a></li>
+            <li><a href="http://www.josephkelly.me">JosephKelly.me</a></li>
             <li class="divider"></li> 
             <li><a href="#sitemap">Sitemap</a></li>
          </ul>
@@ -147,7 +147,7 @@
     <p>&nbsp;</p>
   </div>
   <div class="container vSpacer" id="main">
-    {{ content }} 
+    <!-- {{ content }} --> 
     <div id="parent">
       <div ng-view="" class="xmainView" >
       </div>
