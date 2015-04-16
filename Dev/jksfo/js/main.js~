@@ -47,9 +47,6 @@ jksfoApp.config( ['$routeProvider', function($routeProvider) {
     .when('/sqlHBase', {
       templateUrl: 'partials/dev/sqlHBase.html'
     })
-    .when('/sqlMongo', {
-      templateUrl: 'partials/dev/sqlMongo.html'
-    })
       
 
 

@@ -110,8 +110,8 @@
             <li class="divider"></li> 
             <li><a href="#sqlRiak">SQL - Riak</a></li>
             <li><a href="#sqlPostgreSQL">SQL - PostgreSQL</a></li>
-            <li><a href="#sqlHBase">SQL - HBase</a></li>
-            <li><a href="#sqlMongo">SQL - MongoDB</a></li>
+            <li><a href="#sq1HBase">SQL - HBase</a></li>
+            <li><a href="#sq1Mongo">SQL - MongoDB</a></li>
 
           </ul>
         </li>
