@@ -95,7 +95,6 @@
           <ul class="dropdown-menu " >
             <!-- <li class="divider"></li> -->
             <li><a href="#geoLocation">Geo Location</a></li>
-            <li class="disabled"><a href="">Python</a></li> <!-- #python -->
 
             <li><a href="http://joeskb.blogspot.com/">Blog</a></li> 
             <li><a href="#resources">Resources</a></li>
@@ -111,7 +110,11 @@
             <li class="disabled"><a href="">SQL - PostgreSQL</a></li> <!-- #sqlPostgreSQL -->
             <li class="disabled"><a href="">SQL - HBase</a></li> <!-- #sqlHBase -->
             <li class="disabled"><a href="">SQL - MongoDB</a></li> <!-- #sqlMongo -->
+            <li class="divider"></li> 
+
             <li ><a href="#linux">Linux</a></li> 
+            <li class="disabled"><a href="">Python</a></li> <!-- #python -->
+            <li class="disabled"><a href="">NodeJS</a></li> <!--  -->
 
           </ul>
         </li>

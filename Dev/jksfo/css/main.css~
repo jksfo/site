@@ -7,7 +7,7 @@
 .bkImg {
 	background-image: url(../img/aquParkPan01.3.png);
 	background-repeat: no-repeat;
-	background-size: cover;
+	background-size: 100%;
 	opacity: 1.0;
 	width: 100%;
 	filter: alpha(opacity=100); /* For IE8 and earlier */
@@ -144,6 +144,6 @@ width: 90%;
 .vcenter {
     display: flex;
     align-items: center;
-    /* vertic al-align: middle; */ 
+    /* vertical-align: middle; */ 
 }
 
